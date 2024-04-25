@@ -1,0 +1,203 @@
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Lora;
+}
+
+/*Header*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B286D;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    color: #66CC00;
+}
+
+nav li{
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: 500;
+    color: #66CC00;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #66CC00;
+}
+
+nav img{
+    width: 100px;
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*Caja1*/
+
+.caja1{
+    flex-basis: 100%;
+}
+
+.caja1 h1{
+    color: #66CC00;
+    font-weight: 600;
+    margin: 15px;
+    text-align: center;
+}
+
+.caja1 p{
+    margin: 15px; 
+}
+
+.caja1 img{
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Caja15*/
+
+.caja15{
+    margin-left: auto;
+    margin-right: auto;
+    color: #66CC00;
+    font-weight: 600;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Caja2*/
+
+.caja2{
+    display: flex;
+}
+
+.caja21{
+    flex-basis: 50%;
+}
+
+.caja22{
+    flex-basis: 50%;
+}
+
+.caja2 h2{
+    color: #66CC00;
+    font-weight: 600;
+    text-align: center;
+}
+
+.caja2 ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.caja2 li{
+    margin: 15px;
+}
+
+.caja22 ol{
+    list-style-position: inside;
+}
+
+.caja2 img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Caja25*/
+
+.caja25{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #66CC00;
+    font-weight: 600;
+}
+
+/*Caja3*/
+
+.caja3{
+    display: flex;
+}
+
+.caja31{
+    flex-basis: 100%;
+}
+
+.caja32{
+    flex-basis: 50%;
+}
+
+.caja3 h2{
+    color: #66CC00;
+    font-weight: 600;
+    text-align: center;
+}
+
+.caja3 ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.caja3 li{
+    margin: 15px;
+}
+
+.caja32 ol{
+    list-style-position: inside;
+}
+
+.caja3 p{
+    margin: 15px; 
+}
+
+.caja3 img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: #66CC00;
+    padding: 15px;
+    background-color: #4B286D;
+}
+
+
+
+
+
+
+
+
